@@ -23,7 +23,9 @@ module DesugaringExercises
   # Copy the contents of the previous method here and remove this sugar.
   #
   def desugared_poetry(recipients, event, message)
-    implement_me!
+    mail(message, 
+      to: recipients.map(&:email),
+      subject: "You’re invited to #{event.title} on #{event.date}")
   end
 
   # Ruby allows you to pass arguments identified by name instead of just by position. They are really just

@@ -1,3 +1,20 @@
+
+
+# Worked alone (no partner).
+#
+# Sources:
+# - Hints from the assignment page (Part 2: Going Loopless), including the
+#   per-method hints for find_all_in_role, list_movies, and build_credits.
+# - Official Ruby documentation:
+#   select:   https://docs.ruby-lang.org/en/master/Array.html#method-i-select
+#   map:      https://docs.ruby-lang.org/en/master/Array.html#method-i-map
+#   include?: https://docs.ruby-lang.org/en/master/Array.html#method-i-include-3F
+#   uniq:     https://docs.ruby-lang.org/en/master/Array.html#method-i-uniq
+#   sort_by:  https://docs.ruby-lang.org/en/master/Enumerable.html#method-i-sort_by
+#   flat_map: https://docs.ruby-lang.org/en/master/Enumerable.html#method-i-flat_map
+#   &:name:   https://docs.ruby-lang.org/en/master/Symbol.html#method-i-to_proc
+
+
 require 'movie_data_model'
 require 'set'
 
